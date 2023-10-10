@@ -10,6 +10,8 @@ public class Divisible {
             d = entrada.nextInt();
             if (n%d == 0)
                 System.out.println(n +" es divisible por "+d);
+            else
+                System.out.println(n+ "no es divisible por"+d);
     }
 
 }
